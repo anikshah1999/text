@@ -2,118 +2,111 @@
     margin: 0;
     padding: 0;
 }
+/* header-section */
 
 .main-div{
     width: 1024px;
-    margin:20px auto;
- 
+    margin:50px auto;
 }
-
-/* header-section */
-
-.menu{
+.header{
     background: #34495e;
     padding: 40px 0px;
-}
-.menu ul{
-    list-style-type: none;
     text-align: center;
-
 }
-.menu ul li{
+.header ul{
+    list-style: none;
+}
+.header ul li{
     display: inline-block;
 }
-.menu ul li a{
+.header ul li a{
     display: inline-block;
-    background: #e57e22;
     text-decoration: none;
-    padding:10px 20px;
-    color: #34495e;
+    background: #e67e22;
+    color: #6f594e;
+    padding: 10px 20px;
     margin: 0px 10px;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 600;
 }
-.menu ul li a:hover{}
 
 /* slider-section */
 
 .slider{
-    background-image: url(https://i.ibb.co/bL5LnnV/lf.jpg);
+    background-image: url(anik.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 100px 0px;
+    background-position: center center;
     text-align: center;
+    padding: 100px 50px;
 }
 .slider h1{
     color: #34495e;
 }
 .slider p{
-    color: #34495e;
-    margin:20px 0px;
+    margin: 30px 0px;
+   
 }
 .slider a{
     text-decoration: none;
     color: #fff;
-    padding: 10px 22px;
-    border-radius: 5px;
-    background: #dc3545;
     display: inline-block;
-  
+    background: #db3343;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
 }
 
-/* about-section */
 
+
+/* body-section */
 .about{
     background: #d35400;
-    padding: 80px 30px;
     text-align: center;
-    
+    padding: 60px 30px;
 }
 .about p{
-    color: #fff;
-    margin-bottom:30px;
- 
+  color: #fff;
+  line-height:25px;
+  margin-bottom: 40px;
+  font-size: 18px;
 }
-.about ul{
-    list-style-type: none;
-
-}
+.about ul{}
 .about ul li{
     display: inline-block;
-    color: #34495e;
-    font-size: 20px;
     margin: 0px 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #34495e;
 }
 
 /* footer-section */
 
 .footer{
+    text-align: center;
     background: #2c3e50;
     padding: 40px 0px;
-    text-align: center;
+ 
 }
 .footer ul{
-    list-style-type: none;
-
+  list-style: none;
 }
 .footer ul li{
     display: inline-block;
 }
 .footer ul li a{
-    display: inline-block;
-    background: #e57e22;
-    padding:10px 20px;
-    margin: 0px 10px;
     text-decoration: none;
-    color: #34495e;
-    font-size: 17px;
+    background: #e57e22;
+    color: #6f594e;
+    padding: 10px 20px;
+    margin: 0px 10px;
+    font-size: 20px;
     font-weight: 600;
-
+    
 }
+
 .footer p{
     color: #fff;
-    margin: 30px 0px;
+    margin: 40px 0;
     font-size:20px;
-    word-spacing:4px;
-    
 }
